@@ -39,8 +39,8 @@ Key features:
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
-   cd thunkvideoprocessor
+   git clone git@github.com:northwestcoder/firebase-video-processor.git
+   cd firebase-video-processor
    ```
 
 2. Install dependencies using Swift Package Manager:

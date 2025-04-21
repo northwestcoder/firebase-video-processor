@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794022742DB295AF002F0C9B /* ThunkVideoProcessorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794022732DB295AF002F0C9B /* ThunkVideoProcessorApp.swift */; };
+		794022762DB295AF002F0C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794022752DB295AF002F0C9B /* Assets.xcassets */; };
+		7940227C2DB295AF002F0C9B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940227B2DB295AF002F0C9B /* FirebaseManager.swift */; };
+		7940227E2DB295AF002F0C9B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940227D2DB295AF002F0C9B /* LoginView.swift */; };
+		794022802DB295AF002F0C9B /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7940227F2DB295AF002F0C9B /* VideoListView.swift */; };
+		794022822DB295AF002F0C9B /* VideoRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794022812DB295AF002F0C9B /* VideoRecordingView.swift */; };
+		794BE9522DB37D6100B30CF3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794BE9512DB37D6100B30CF3 /* SettingsView.swift */; };
+		797AD39E2DB45A4C004CEF36 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AD39D2DB45A4C004CEF36 /* AppSettings.swift */; };
+		79BE41142DB2968200ADA3E6 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE41132DB2968200ADA3E6 /* FirebaseCore */; };
+		79BE41162DB2968200ADA3E6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE41152DB2968200ADA3E6 /* FirebaseDatabase */; };
+		79BE41182DB2968200ADA3E6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE41172DB2968200ADA3E6 /* FirebaseStorage */; };
+		79BE411B2DB2969500ADA3E6 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE411A2DB2969500ADA3E6 /* GoogleSignIn */; };
+		79BE411D2DB2969500ADA3E6 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE411C2DB2969500ADA3E6 /* GoogleSignInSwift */; };
+		79BE41292DB2985400ADA3E6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE41282DB2985400ADA3E6 /* FirebaseAuth */; };
+		79BE412B2DB2987100ADA3E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 79BE412A2DB2987100ADA3E6 /* FirebaseFirestore */; };
+		79BE412C2DB29BC800ADA3E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 794022842DB295AF002F0C9B /* GoogleService-Info.plist */; };
+		79E0D29D2DB3596B0088672D /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0D29C2DB3596B0088672D /* SplashScreenView.swift */; };
+		79E0D29F2DB359D50088672D /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E0D29E2DB359D50088672D /* MainContentView.swift */; };
+		79EEDBB12DB33CB3009A3358 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEDBB02DB33CB3009A3358 /* VideoDetailView.swift */; };
+		79EEDBB72DB33E14009A3358 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EEDBB62DB33E14009A3358 /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		794022622DB295AF002F0C9B /* ThunkVideoProcessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThunkVideoProcessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		794022732DB295AF002F0C9B /* ThunkVideoProcessorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunkVideoProcessorApp.swift; sourceTree = "<group>"; };
+		794022752DB295AF002F0C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7940227A2DB295AF002F0C9B /* ThunkVideoProcessor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThunkVideoProcessor.entitlements; sourceTree = "<group>"; };
+		7940227B2DB295AF002F0C9B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		7940227D2DB295AF002F0C9B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7940227F2DB295AF002F0C9B /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		794022812DB295AF002F0C9B /* VideoRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecordingView.swift; sourceTree = "<group>"; };
+		794022842DB295AF002F0C9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		794BE9512DB37D6100B30CF3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		797AD39C2DB38392004CEF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		797AD39D2DB45A4C004CEF36 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		79A3B1362DB36992009D28DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79E0D29C2DB3596B0088672D /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		79E0D29E2DB359D50088672D /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		79EEDBB02DB33CB3009A3358 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		79EEDBB62DB33E14009A3358 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7940225F2DB295AF002F0C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE411D2DB2969500ADA3E6 /* GoogleSignInSwift in Frameworks */,
+				79BE41292DB2985400ADA3E6 /* FirebaseAuth in Frameworks */,
+				79BE41162DB2968200ADA3E6 /* FirebaseDatabase in Frameworks */,
+				79BE411B2DB2969500ADA3E6 /* GoogleSignIn in Frameworks */,
+				79BE41142DB2968200ADA3E6 /* FirebaseCore in Frameworks */,
+				79BE41182DB2968200ADA3E6 /* FirebaseStorage in Frameworks */,
+				79BE412B2DB2987100ADA3E6 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794022592DB295AF002F0C9B = {
+			isa = PBXGroup;
+			children = (
+				794022642DB295AF002F0C9B /* ThunkVideoProcessor */,
+				794022632DB295AF002F0C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		794022632DB295AF002F0C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				794022622DB295AF002F0C9B /* ThunkVideoProcessor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794022642DB295AF002F0C9B /* ThunkVideoProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				797AD39C2DB38392004CEF36 /* Info.plist */,
+				79A3B1362DB36992009D28DA /* Info.plist */,
+				79E0D29A2DB358E80088672D /* Views */,
+				79E0D29B2DB358FB0088672D /* Firebase */,
+				794BE9562DB37FC100B30CF3 /* Settings */,
+				794022732DB295AF002F0C9B /* ThunkVideoProcessorApp.swift */,
+				794022752DB295AF002F0C9B /* Assets.xcassets */,
+				7940227A2DB295AF002F0C9B /* ThunkVideoProcessor.entitlements */,
+				794022842DB295AF002F0C9B /* GoogleService-Info.plist */,
+			);
+			path = ThunkVideoProcessor;
+			sourceTree = "<group>";
+		};
+		794BE9562DB37FC100B30CF3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				797AD39D2DB45A4C004CEF36 /* AppSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		79E0D29A2DB358E80088672D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79EEDBB62DB33E14009A3358 /* AboutView.swift */,
+				7940227D2DB295AF002F0C9B /* LoginView.swift */,
+				79E0D29E2DB359D50088672D /* MainContentView.swift */,
+				794BE9512DB37D6100B30CF3 /* SettingsView.swift */,
+				79E0D29C2DB3596B0088672D /* SplashScreenView.swift */,
+				79EEDBB02DB33CB3009A3358 /* VideoDetailView.swift */,
+				7940227F2DB295AF002F0C9B /* VideoListView.swift */,
+				794022812DB295AF002F0C9B /* VideoRecordingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79E0D29B2DB358FB0088672D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7940227B2DB295AF002F0C9B /* FirebaseManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		794022612DB295AF002F0C9B /* ThunkVideoProcessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7940226E2DB295AF002F0C9B /* Build configuration list for PBXNativeTarget "ThunkVideoProcessor" */;
+			buildPhases = (
+				7940225E2DB295AF002F0C9B /* Sources */,
+				7940225F2DB295AF002F0C9B /* Frameworks */,
+				794022602DB295AF002F0C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThunkVideoProcessor;
+			packageProductDependencies = (
+				79BE41132DB2968200ADA3E6 /* FirebaseCore */,
+				79BE41152DB2968200ADA3E6 /* FirebaseDatabase */,
+				79BE41172DB2968200ADA3E6 /* FirebaseStorage */,
+				79BE411A2DB2969500ADA3E6 /* GoogleSignIn */,
+				79BE411C2DB2969500ADA3E6 /* GoogleSignInSwift */,
+				79BE41282DB2985400ADA3E6 /* FirebaseAuth */,
+				79BE412A2DB2987100ADA3E6 /* FirebaseFirestore */,
+			);
+			productName = ThunkVideoProcessor;
+			productReference = 794022622DB295AF002F0C9B /* ThunkVideoProcessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7940225A2DB295AF002F0C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					794022612DB295AF002F0C9B = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 7940225D2DB295AF002F0C9B /* Build configuration list for PBXProject "ThunkVideoProcessor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794022592DB295AF002F0C9B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				79BE41192DB2969500ADA3E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 794022632DB295AF002F0C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				794022612DB295AF002F0C9B /* ThunkVideoProcessor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		794022602DB295AF002F0C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE412C2DB29BC800ADA3E6 /* GoogleService-Info.plist in Resources */,
+				794022762DB295AF002F0C9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7940225E2DB295AF002F0C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EEDBB72DB33E14009A3358 /* AboutView.swift in Sources */,
+				794022822DB295AF002F0C9B /* VideoRecordingView.swift in Sources */,
+				79EEDBB12DB33CB3009A3358 /* VideoDetailView.swift in Sources */,
+				794022802DB295AF002F0C9B /* VideoListView.swift in Sources */,
+				7940227E2DB295AF002F0C9B /* LoginView.swift in Sources */,
+				794BE9522DB37D6100B30CF3 /* SettingsView.swift in Sources */,
+				79E0D29F2DB359D50088672D /* MainContentView.swift in Sources */,
+				7940227C2DB295AF002F0C9B /* FirebaseManager.swift in Sources */,
+				794022742DB295AF002F0C9B /* ThunkVideoProcessorApp.swift in Sources */,
+				797AD39E2DB45A4C004CEF36 /* AppSettings.swift in Sources */,
+				79E0D29D2DB3596B0088672D /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7940226C2DB295AF002F0C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P2M4T5N6YU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7940226D2DB295AF002F0C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P2M4T5N6YU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7940226F2DB295AF002F0C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThunkVideoProcessor/ThunkVideoProcessor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThunkVideoProcessor/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to record videos for processing";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to record videos for processing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunkai.firebasedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		794022702DB295AF002F0C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThunkVideoProcessor/ThunkVideoProcessor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThunkVideoProcessor/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to record videos for processing";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access to record videos for processing";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thunkai.firebasedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7940225D2DB295AF002F0C9B /* Build configuration list for PBXProject "ThunkVideoProcessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7940226C2DB295AF002F0C9B /* Debug */,
+				7940226D2DB295AF002F0C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7940226E2DB295AF002F0C9B /* Build configuration list for PBXNativeTarget "ThunkVideoProcessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7940226F2DB295AF002F0C9B /* Debug */,
+				794022702DB295AF002F0C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+		79BE41192DB2969500ADA3E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79BE41132DB2968200ADA3E6 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		79BE41152DB2968200ADA3E6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		79BE41172DB2968200ADA3E6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		79BE411A2DB2969500ADA3E6 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41192DB2969500ADA3E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		79BE411C2DB2969500ADA3E6 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41192DB2969500ADA3E6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		79BE41282DB2985400ADA3E6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		79BE412A2DB2987100ADA3E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79BE41122DB2968200ADA3E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7940225A2DB295AF002F0C9B /* Project object */;
+}
